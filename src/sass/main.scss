@@ -1,0 +1,307 @@
+
+nav h1 {
+  color: #eee;
+  font-family: 'Pacifico', cursive;
+  font-size: 42px;
+  float: left;
+
+}
+
+
+ul {
+  text-align: right;
+  padding-right: 7%;
+
+}
+
+ul li {
+  display: inline-block;
+}
+//
+ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: #eee;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: bold;
+  transition: all 200ms linear;
+}
+
+nav a:hover,
+nav#small a:hover {
+  color: #C18055;
+  background: #fff;
+}
+
+nav#small {
+  background: #fff;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0px 2px 2px #fff;
+  height: 66px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.19);
+
+}
+
+
+#contact-num{
+  border-style: none;
+  width: 26px;
+  position: absolute;
+  right: 13%;
+  border-left: solid 1px;
+  padding-left: 1%;
+  top: 24px;
+}
+.content-text2{
+  color: white;
+font-family: 'Oswald', sans-serif;
+font-size: 42px;
+letter-spacing: 7px;
+padding-left: 77px;
+}
+.content-text-div:hover{
+  background: black;
+  opacity:0.9;
+}
+
+
+div#content {
+  height: 693px;
+  background: white;
+  opacity: 0.9;
+   background: url(/images/gulpfile.jpeg) no-repeat center center fixed;
+}
+.content-text-div{
+  position: absolute;
+  top: 85%;
+  right: 32%;
+  width: 488px;
+  height: 87px;
+  border-radius: 25px;
+  border: solid white;
+}
+
+
+
+
+.nava1{
+  margin-left: 20%;
+width: 80%;
+color:black;
+}
+.nava{
+  font-family: 'Harmattan', sans-serif;
+    font-size: 21px;
+    color: #5a6063;
+}
+.layout-wrapper{
+width: 100%;
+height: 610px;
+margin-top: 65px;
+}
+.business-div-wrapper{
+  width: 100%;
+  height: 300px;
+}
+.business-div{
+  height: 200px;
+  background: #f6e1bb;
+  width: 100%;
+}
+.business-div-text{
+  padding-left: 20%;
+  font-size: 45px;
+  margin: 0px;
+}
+
+.business-div-2{
+  width: 33%;
+  height: 300px;
+  float: right;
+  overflow: hidden;
+}
+.business-div-3{
+  width: 487px;
+  height: 300px;
+  float: right;
+  overflow: hidden;
+}
+.business-div-4{
+  width: 477px;
+  overflow: hidden;
+  height: 300px;
+}
+.business-div-title{
+  background: none;
+  position: absolute;
+font-size: 33px;
+padding-left: 20px;
+padding-top: 26px;
+color: white;
+text-shadow: 1px 1px 1px #000;
+}
+
+
+#business-img{
+    width: 485px;
+}
+.business-div-text-2{
+  color: black;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+font-size: 39px;
+}
+.business-div-text-3{
+  color: black;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+font-size: 30px;
+}
+.layout-page-wrapper{
+  height: 1195px;
+  width: 100%;
+}
+.general-text{
+  width: 575px;
+  height: 425px;
+  background: black;
+  border: solid;
+
+}
+h1#Web{
+  text-align: center;
+  font-size: 79px;
+  margin: 0px;
+  margin-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+h2#Web-text2{
+  padding-left: 35px;
+  margin: 0px;
+  font-size: 35px;
+  height: 50px;
+  padding-top: 3px;
+  color: white;
+}
+h3#Web-text3{
+  background: wheat;
+  width: 411px;
+  height: 55px;
+  font-size: 37px;
+  margin-left: 37px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+p{
+  color: white;
+font-size: 25px;
+margin-left: 35px;
+font-family: 'Roboto', sans-serif;
+
+}
+.type-text{
+  height: 191px;
+float: right;
+width: 56%;
+margin: 1%;
+margin-top: 75px;
+}
+// ---------------------// type writter effect-----------------------------
+
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 {
+  font-size: 3.5em;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 1px -4px 0px #000;
+}
+
+#web-img{
+  position: absolute;
+top: 55%;
+width: 52%;
+right: 4%;
+border: none;
+opacity: 22;
+}
+
+span{
+  background: black;
+
+}
+.ed{
+  overflow: hidden;
+  height: 400px;
+}
+video{
+  position: relative;
+top: -35%;
+width: 100%;
+}
+.business-div-title1{
+  background: none;
+  position: absolute;
+font-size: 33px;
+padding-left: 20px;
+padding-top: 26px;
+color: white;
+text-shadow: 1px 1px 1px #000;
+top: 4%;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+  nav {
+    padding: 20px;
+  }
+  nav h1 {
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 20px;
+  }
+  nav ul {
+    float: none;
+    padding: 20px;
+  }
+  div#content h2 {
+    width: 30%;
+  }
+  nav#small {
+    padding: 20px;
+  }
+  nav#small ul {
+    padding: 5px;
+  }
+  nav#small h1 {
+    padding: 10px;
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  nav#small a {
+    font-weight: normal;
+  }
+  img#layout-pic{
+    height: 530px;
+    width: 100%;
+  }
+
+
+}
